@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.test.cmtablayoutview.CMTabLayoutViewActivity">
+
+    <com.test.cmtablayoutview.CMTabLayoutView
+        android:id="@+id/tab_layout"
+        android:layout_width="match_parent"
+        android:background="@color/colorPrimary"
+        android:layout_height="wrap_content">
+
+        <!--<TextView-->
+            <!--android:background="@color/colorAccent"-->
+            <!--android:textSize="25sp"-->
+            <!--android:text="111111qqqqqq"-->
+            <!--android:layout_margin="20dp"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content" />-->
+
+        <!--<TextView-->
+            <!--android:background="@color/colorAccent"-->
+            <!--android:textSize="25sp"-->
+            <!--android:text="222222"-->
+            <!--android:layout_margin="20dp"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="60dp" />-->
+
+        <!--<TextView-->
+            <!--android:background="@color/colorAccent"-->
+            <!--android:textSize="25sp"-->
+            <!--android:text="3333333"-->
+            <!--android:layout_margin="10dp"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content" />-->
+
+        <!--<TextView-->
+            <!--android:textSize="25sp"-->
+            <!--android:text="444444"-->
+            <!--android:background="@color/colorAccent"-->
+            <!--android:layout_margin="10dp"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content" />-->
+
+        <!--<TextView-->
+            <!--android:background="@color/colorAccent"-->
+            <!--android:textSize="25sp"-->
+            <!--android:text="555555"-->
+            <!--android:layout_margin="10dp"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content" />-->
+
+        <!--<TextView-->
+            <!--android:background="@color/colorAccent"-->
+            <!--android:textSize="25sp"-->
+            <!--android:text="666666w"-->
+            <!--android:layout_margin="10dp"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content" />-->
+
+        <!--<TextView-->
+            <!--android:background="@color/colorAccent"-->
+            <!--android:textSize="25sp"-->
+            <!--android:text="7777777"-->
+            <!--android:layout_margin="10dp"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content" />-->
+
+        <!--<TextView-->
+            <!--android:background="@color/colorAccent"-->
+            <!--android:textSize="25sp"-->
+            <!--android:text="8888888qqqqqqqqqqqqq"-->
+            <!--android:layout_margin="10dp"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content" />-->
+
+        <!--<TextView-->
+            <!--android:background="@color/colorAccent"-->
+            <!--android:textSize="25sp"-->
+            <!--android:text="999999"-->
+            <!--android:layout_margin="10dp"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content" />-->
+
+    </com.test.cmtablayoutview.CMTabLayoutView>
+
+</LinearLayout>

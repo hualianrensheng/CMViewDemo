@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:background="@drawable/home_content_bg"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <com.test.cmQQSlidingMenuView.CircleImageView
+        android:src="@drawable/user_head"
+        android:id="@+id/qq_user_head"
+        android:layout_margin="12dp"
+        android:layout_width="52dp"
+        android:layout_height="52dp" />
+
+</RelativeLayout>

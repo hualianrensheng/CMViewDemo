@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.test.cmviewdemo">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.test.cmfragment.CMViewPageActivity" />
+        <activity android:name="com.test.cmletterview.CMLetterSiderViewActivity" />
+        <activity android:name="com.test.cmtablayoutview.CMTabLayoutViewActivity" />
+        <activity android:name="com.test.cmtouch.CMTouchViewActivity" />
+        <activity android:name="com.test.cmSlidingMenuView.CMSlidingMenuActivity" />
+        <activity android:name="com.test.cmQQSlidingMenuView.CMQQSlidingMenuActivity" />
+        <activity android:name="com.test.cmVerticalDragListView.CMVerticalDragListViewActivity" />
+        <activity android:name="com.test.cmMaterialDesign.CMMaterialDesionDemoActivity" />
+        <activity android:name="com.test.cmMaterialDesign.CMMaterialDesionStatusBarActivity" />
+        <activity android:name="com.test.cmMaterialDesign.CMMaterialBehaviorActivity" />
+        <activity android:name="com.test.cmDashView.CMDashBoardActivity" />
+        <activity android:name="com.test.cmPieChartView.CMPieChartViewActivity" />
+        <activity android:name="com.test.cmAvatarView.CMAvatarViewActivity" />
+        <activity android:name="com.test.cmStockPieChartView.CMStockPieChartViewActivity" />
+        <activity android:name="com.test.cmTextView.CMImageTextViewActivity" />
+        <activity android:name="com.test.cmAnimation.CMAnimationRorateActivity" />
+        <activity android:name="com.test.cmMaterialEditText.CMMaterialEditTextActivity" />
+        <activity android:name="com.test.cmScalableImage.CMScalableActivity" />
+        <activity android:name="com.test.cmMaiMaiImage.CMMaiMaiImageActivity"></activity>
+    </application>
+
+</manifest>

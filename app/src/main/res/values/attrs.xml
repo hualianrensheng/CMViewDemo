@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--自定义TextView-->
+    <declare-styleable name="CMTextView">
+        <attr name="cmTextColor" format="color"></attr>
+        <attr name="cmText" format="string"></attr>
+        <attr name="cmTextSize" format="dimension"></attr>
+        <attr name="cmTextMaxLength" format="integer"></attr>
+    </declare-styleable>
+
+    <!--仿QQ运动步数进度效果-->
+    <declare-styleable name="QQStyepView">
+        <attr name="cmOuterColor" format="color"></attr>
+        <attr name="cmInnerColor" format="color"></attr>
+        <attr name="cmBorderWidth" format="dimension"></attr>
+        <attr name="cmStepTextSize" format="dimension"></attr>
+        <attr name="cmStepTextColor" format="color"></attr>
+    </declare-styleable>
+
+
+    <declare-styleable name="ColorTrackTextView">
+        <attr name="cmChangeTextColor" format="color"></attr>
+        <attr name="cmOriginTextColor" format="color"></attr>
+    </declare-styleable>
+
+    <declare-styleable name="CMProgressView">
+        <attr name="cmProgressOuterColor" format="color"></attr>
+        <attr name="cmProgressInnerColor" format="color"></attr>
+        <attr name="cmProgressBorderWidth" format="dimension"></attr>
+        <attr name="cmProgressTextSize" format="dimension"></attr>
+        <attr name="cmProgressTextColor" format="color"></attr>
+    </declare-styleable>
+    
+    <declare-styleable name="CMRatingBarView">
+        <attr name="cmRatingBarStartNormal" format="reference"></attr>
+        <attr name="cmRatingBarStartFocus" format="reference"></attr>
+        <attr name="cmRatingBarGradeNumber" format="integer"></attr>
+    </declare-styleable>
+
+    <!--字母索引列表-->
+    <declare-styleable name="CMLetterSiderView">
+        <attr name="cmLetterSiderChooseTextColor" format="color"></attr>
+        <attr name="cmLetterSiderChooseTextSize" format="dimension"></attr>
+        <attr name="cmLetterSiderNormalTextColor" format="color"></attr>
+        <attr name="cmLetterSiderNormalTextSize" format="dimension"></attr>
+    </declare-styleable>
+
+    <!--仿酷狗侧拉-->
+    <declare-styleable name="CMSlidingMenuView">
+        <attr name="cmSlidingMenuRightMargin" format="dimension"></attr>
+    </declare-styleable>
+
+    <!--仿qq侧拉-->
+    <declare-styleable name="CMQQSlidingMenuView">
+        <attr name="cmQQSlidingMenuRightMargin" format="dimension"></attr>
+    </declare-styleable>
+
+    <!--仿cmMaterialEditTextView-->
+    <declare-styleable name="cmMaterialEditTextView">
+        <attr name="cmMaterialEditTextViewUserFloating" format="boolean"></attr>
+    </declare-styleable>
+
+</resources>

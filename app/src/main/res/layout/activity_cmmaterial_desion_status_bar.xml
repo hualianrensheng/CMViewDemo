@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.test.cmMaterialDesign.CMMaterialDesionStatusBarActivity">
+
+
+    <ScrollView
+        android:id="@+id/title_scrollview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/title_imageview"
+                android:background="@color/colorAccent"
+                android:layout_width="match_parent"
+                android:layout_height="400dp" />
+
+            <TextView
+                android:textSize="30dp"
+                android:textColor="@color/colorPrimaryDark"
+                android:gravity="center"
+                android:text="@string/app_name"
+                android:layout_width="match_parent"
+                android:layout_height="200dp" />
+
+            <TextView
+                android:textSize="30dp"
+                android:textColor="@color/colorPrimaryDark"
+                android:gravity="center"
+                android:text="@string/app_name"
+                android:layout_width="match_parent"
+                android:layout_height="200dp" />
+
+            <TextView
+                android:textSize="30dp"
+                android:textColor="@color/colorPrimaryDark"
+                android:gravity="center"
+                android:text="@string/app_name"
+                android:layout_width="match_parent"
+                android:layout_height="200dp" />
+
+            <TextView
+                android:textSize="30dp"
+                android:textColor="@color/colorPrimaryDark"
+                android:gravity="center"
+                android:text="@string/app_name"
+                android:layout_width="match_parent"
+                android:layout_height="200dp" />
+
+            <TextView
+                android:textSize="30dp"
+                android:textColor="@color/colorPrimaryDark"
+                android:gravity="center"
+                android:text="@string/app_name"
+                android:layout_width="match_parent"
+                android:layout_height="200dp" />
+
+            <TextView
+                android:textSize="30dp"
+                android:textColor="@color/colorPrimaryDark"
+                android:gravity="center"
+                android:text="@string/app_name"
+                android:layout_width="match_parent"
+                android:layout_height="200dp" />
+
+            <TextView
+                android:textSize="30dp"
+                android:textColor="@color/colorPrimaryDark"
+                android:gravity="center"
+                android:text="@string/app_name"
+                android:layout_width="match_parent"
+                android:layout_height="200dp" />
+
+            <TextView
+                android:textSize="30dp"
+                android:textColor="@color/colorPrimaryDark"
+                android:gravity="center"
+                android:text="@string/app_name"
+                android:layout_width="match_parent"
+                android:layout_height="200dp" />
+
+            <TextView
+                android:textSize="30dp"
+                android:textColor="@color/colorPrimaryDark"
+                android:gravity="center"
+                android:text="@string/app_name"
+                android:layout_width="match_parent"
+                android:layout_height="200dp" />
+
+            <TextView
+                android:textSize="30dp"
+                android:textColor="@color/colorPrimaryDark"
+                android:gravity="center"
+                android:text="@string/app_name"
+                android:layout_width="match_parent"
+                android:layout_height="200dp" />
+
+        </LinearLayout>
+        
+    </ScrollView>
+
+
+    <LinearLayout
+        android:id="@+id/title_bar"
+        android:gravity="center"
+        android:background="@android:color/holo_blue_light"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="70dp">
+
+        <TextView
+            android:textSize="30dp"
+            android:textColor="#234134"
+            android:gravity="center"
+            android:text="头部"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+
+</android.support.constraint.ConstraintLayout>

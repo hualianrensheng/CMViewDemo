@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.test.cmletterview.CMLetterSiderViewActivity">
+
+    <TextView
+        android:visibility="gone"
+        android:id="@+id/sider_text_tv"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:textSize="30sp"
+        android:text="A"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <com.test.cmletterview.CMLetterSiderView
+        android:id="@+id/sider_letter_cmlettersider"
+        android:layout_alignParentRight="true"
+        app:cmLetterSiderChooseTextColor="@color/colorAccent"
+        app:cmLetterSiderChooseTextSize="20sp"
+        app:cmLetterSiderNormalTextColor="@color/colorPrimaryDark"
+        app:cmLetterSiderNormalTextSize="10sp"
+        android:padding="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"/>
+
+</RelativeLayout>

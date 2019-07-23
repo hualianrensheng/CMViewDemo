@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.test.cmSlidingMenuView.CMSlidingMenuView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/home_menu_bg"
+    tools:context="com.test.cmSlidingMenuView.CMSlidingMenuActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+        <include layout="@layout/activity_layout_home_menu" />
+
+        <include layout="@layout/activity_layout_home_content" />
+    </LinearLayout>
+
+</com.test.cmSlidingMenuView.CMSlidingMenuView>
